@@ -30,7 +30,7 @@ export default defineConfig({
     ],
     qiankun: {
         master: {
-            apps: [
+            /*apps: [
                 {
                     name: 'qiankun-app', // 唯一 id
                     entry: 'http://localhost:8010/', // html entry
@@ -42,7 +42,7 @@ export default defineConfig({
                 strictStyleIsolation: true,
                 // experimentalStyleIsolation 正常
                 //experimentalStyleIsolation: true,
-            },
+            },*/
         },
     },
 });
